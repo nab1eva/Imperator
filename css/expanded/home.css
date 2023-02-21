@@ -124,7 +124,6 @@ nav .nav2 .container .nav__right button:hover {
 }
 
 .hamburger {
-  padding: 20px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -162,6 +161,7 @@ nav .nav2 .container .nav__right button:hover {
   background-color: rgba(0, 0, 0, 0.5176470588);
 }
 #navbar-responsive .hamcontent {
+  position: relative;
   padding: 92px 36px 45px;
   background-color: #fafafa;
   height: 70vh;
@@ -180,7 +180,10 @@ nav .nav2 .container .nav__right button:hover {
   color: #ffc000;
 }
 #navbar-responsive .hamcontent .buttons {
-  margin-top: 140px;
+  position: absolute;
+  bottom: 45px;
+  left: 0;
+  padding: 0 28px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -203,10 +206,12 @@ nav .nav2 .container .nav__right button:hover {
 }
 
 .nav__res {
+  padding: 15px 0;
   background-color: #fafafa;
 }
 
 .uil-multiply {
+  z-index: 10;
   cursor: pointer;
   padding: 25px 30px;
   color: #000000;
@@ -220,7 +225,7 @@ nav .nav2 .container .nav__right button:hover {
   box-shadow: 1px 5px 15px grey;
 }
 
-@media (min-width: 880px) {
+@media (min-width: 910px) {
   .nav1 {
     display: block !important;
   }

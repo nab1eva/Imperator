@@ -109,7 +109,6 @@ nav {
 }
 
 .hamburger {
-  padding: 20px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -145,6 +144,7 @@ nav {
   text-align: center;
   background-color: #00000084;
   .hamcontent {
+    position: relative;
     padding: 92px 36px 45px;
     background-color: $white;
     height: 70vh;
@@ -162,7 +162,10 @@ nav {
       color: $orange;
     }
     .buttons {
-      margin-top: 140px;
+      position: absolute;
+      bottom: 45px;
+      left: 0;
+      padding: 0 28px;
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -187,11 +190,13 @@ nav {
   }
 }
 
-.nav__res{
-	background-color: $white;
+.nav__res {
+  padding: 15px 0;
+  background-color: $white;
 }
 
 .uil-multiply {
+  z-index: 10;
   cursor: pointer;
   padding: 25px 30px;
   color: $black;
@@ -205,7 +210,7 @@ nav {
   box-shadow: 1px 5px 15px $grey;
 }
 
-@media (min-width: 880px) {
+@media (min-width: 910px) {
   .nav1 {
     display: block !important;
   }
