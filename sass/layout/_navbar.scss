@@ -1,6 +1,6 @@
 $white: #fafafa;
 $black: #000000;
-$grey: rgba(255, 255, 255, 0.3);
+$grey: grey;
 $orange: #ffc000;
 $darkblue: radial-gradient(100% 1071.07% at 0% 0%, #0f0d2b 0%, #0c0926 100%);
 
@@ -187,6 +187,10 @@ nav {
   }
 }
 
+.nav__res{
+	background-color: $white;
+}
+
 .uil-multiply {
   cursor: pointer;
   padding: 25px 30px;
@@ -213,7 +217,7 @@ nav {
   }
 }
 
-@media (min-width: 940px) {
+@media (min-width: 970px) {
   .nav__left {
     gap: 80px !important;
   }

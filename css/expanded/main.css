@@ -54,7 +54,7 @@ nav .nav1 {
   background-color: #000000;
 }
 nav .nav1 a {
-  color: rgba(255, 255, 255, 0.3);
+  color: grey;
   margin-right: 8px;
   font-weight: 700;
   font-size: 10px;
@@ -202,6 +202,10 @@ nav .nav2 .container .nav__right button:hover {
   background-color: #ffc000;
 }
 
+.nav__res {
+  background-color: #fafafa;
+}
+
 .uil-multiply {
   cursor: pointer;
   padding: 25px 30px;
@@ -213,7 +217,7 @@ nav .nav2 .container .nav__right button:hover {
 
 .navbarshrink {
   padding: 15px 0 !important;
-  box-shadow: 1px 5px 15px rgba(255, 255, 255, 0.3);
+  box-shadow: 1px 5px 15px grey;
 }
 
 @media (min-width: 880px) {
@@ -227,7 +231,7 @@ nav .nav2 .container .nav__right button:hover {
     display: none;
   }
 }
-@media (min-width: 940px) {
+@media (min-width: 970px) {
   .nav__left {
     gap: 80px !important;
   }
