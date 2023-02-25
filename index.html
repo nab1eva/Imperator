@@ -8,6 +8,18 @@
     <link
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/compressed/home.min.css" />
   </head>
   <body>
@@ -21,7 +33,7 @@
           <a href="#">Uzb</a>
         </div>
       </section>
-      <section  id="navbar" class="nav2 navbarshrink">
+      <section id="navbar" class="nav2 navbarshrink">
         <div class="container">
           <div class="nav__left">
             <h1>MILANDI</h1>
@@ -39,7 +51,7 @@
           </div>
         </div>
       </section>
-      <section  id="navbar" class="nav__res">
+      <section id="navbar" class="nav__res">
         <div class="container">
           <div class="hamburger">
             <div class="left">
@@ -67,7 +79,94 @@
         </div>
       </section>
     </nav>
-    
+    <main>
+      <section id="s1">
+        <img class="img" src="images/home/black.png" alt="" />
+        <div class="container">
+          <div class="s1__left">
+            <h1>Быстрый и удобный шоппинг, не выходя из дома.</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis
+              lectus odio vitae, duis nec ut velit, fermentum. Diam sollicitudin
+              arcu euismod morbi. Adipiscing bibendum elementum, fermentum amet
+              quis erat.
+            </p>
+            <a href=""><i class="uil uil-play"></i> Все товары</a>
+          </div>
+          <div class="s1__right">
+            <img src="images/home/girl.svg" alt="" />
+          </div>
+        </div>
+      </section>
+      <section id="s2">
+        <div class="container">
+          <div class="s1__left">
+            <h1>Быстрый и удобный шоппинг, не выходя из дома.</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis
+              lectus odio vitae, duis nec ut velit, fermentum. Diam sollicitudin
+              arcu euismod morbi. Adipiscing bibendum elementum, fermentum amet
+              quis erat.
+            </p>
+            <a href=""><i class="uil uil-play"></i> Все товары</a>
+          </div>
+          <h1>Наши преимущества</h1>
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <img src="images/home/stars.svg" alt="" />
+              <p>Лучший сервис</p>
+            </div>
+            <div class="item">
+              <img src="images/home/truck.svg" alt="" />
+              <p>Экспресс доставка</p>
+            </div>
+            <div class="item">
+              <img src="images/home/like.svg" alt="" />
+              <p>Лучшее качество в стране</p>
+            </div>
+            <div class="item">
+              <img src="images/home/stars.svg" alt="" />
+              <p>Лучший сервис</p>
+            </div>
+            <div class="item">
+              <img src="images/home/truck.svg" alt="" />
+              <p>Экспресс доставка</p>
+            </div>
+            <div class="item">
+              <img src="images/home/like.svg" alt="" />
+              <p>Лучшее качество в стране</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <script src="js/smth.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+      integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+    <script>
+      $("#s2 .owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          450: {
+            items: 2,
+          },
+          900: {
+            items: 3,
+          },
+        },
+      });
+    </script>
   </body>
 </html>

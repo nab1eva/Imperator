@@ -1,0 +1,91 @@
+@use "../main.scss";
+
+// start home
+
+#home {
+  padding-top: 110px;
+  background: #e5e5e5;
+  padding-bottom: 24px;
+
+  .home_top {
+    padding-top: 64px;
+    padding-bottom: 25px;
+    text-align: center;
+    h1 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 34px;
+      line-height: 140%;
+      text-align: center;
+      letter-spacing: 0.25px;
+      font-feature-settings: "pnum" on, "lnum" on;
+
+      color: #000000;
+    }
+  }
+
+  .home-left {
+    h2 {
+      margin-top: 87px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 140%;
+      font-feature-settings: "pnum" on, "lnum" on;
+      color: #000000;
+      max-width: 557px;
+      margin-bottom: 24px;
+    }
+
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 170%;
+      max-width: 557px;
+
+      letter-spacing: 0.25px;
+      font-feature-settings: "pnum" on, "lnum" on;
+
+      color: #000000;
+    }
+  }
+
+  .home-right {
+    img {
+      margin-top: 15px;
+      max-width: 460px;
+      width: 100%;
+    }
+  }
+
+  .home_bottom {
+    h2 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 34px;
+      line-height: 140%;
+      margin-top: 63px;
+      text-align: center;
+      letter-spacing: 0.25px;
+      font-feature-settings: "pnum" on, "lnum" on;
+
+      color: #000000;
+    }
+  }
+}
+
+// start ekcperss
+
+#ekssper {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  background: #ffffff;
+}
+
+@media (min-width: 800px) {
+  .home-contact {
+    display: flex;
+    gap: 130px;
+  }
+}
