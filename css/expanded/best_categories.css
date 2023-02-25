@@ -277,3 +277,14 @@ nav .nav2 .container .nav__right button:hover {
     gap: 80px !important;
   }
 }
+@media (min-width: 10px) {
+  #best-section .best-container {
+    padding: 110px 20px 0px;
+  }
+  #best-section .best-container .best-top img {
+    max-width: 460px;
+  }
+  #best-section .best-container .best-top .img-box {
+    display: none;
+  }
+}
