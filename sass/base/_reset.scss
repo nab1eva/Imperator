@@ -3,18 +3,9 @@
 * {
   margin: 0;
   padding: 0;
-  text-decoration: none;
-  list-style-type: none;
-  scroll-behavior: smooth;
   transition: all 0.4s ease;
   font-family: 'Montserrat', sans-serif;
   outline: none;
-}
-
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
 }
 
 .container {
@@ -23,3 +14,43 @@
   padding: 0 20px;
 }
 
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  max-inline-size: 100%;
+  max-block-size: 100%;
+}
+
+input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: unset;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*:where(:not(html, iframe, canvas, svg, video, audio):not(svg *, symbol *)) {
+  all: unset;
+  display: revert;
+}
