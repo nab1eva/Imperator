@@ -40,14 +40,6 @@ input:focus {
   outline: none;
 }
 
-::-moz-placeholder {
-  color: unset;
-}
-
-::placeholder {
-  color: unset;
-}
-
 *,
 *::before,
 *::after {
@@ -55,7 +47,6 @@ input:focus {
 }
 
 *:where(:not(html, iframe, canvas, svg, video, audio):not(svg *, symbol *)) {
-  all: unset;
   display: revert;
 }
 
@@ -433,4 +424,8 @@ nav .nav2 .container .nav__right button:hover {
 
 .first-desktop {
   padding-top: 150px;
+}
+
+.pay input {
+  color: black;
 }

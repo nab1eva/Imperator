@@ -1,0 +1,152 @@
+@use "../main.scss";
+
+#home {
+  padding-top: 282px;
+  padding-bottom: 80px;
+  background: #e5e5e5;
+  
+  .home-left {
+    .top {
+      h1 {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 64px;
+        max-width: 528px;
+        font-feature-settings: "pnum" on, "lnum" on;
+        color: #000000;
+      }
+    }
+
+    .center {
+      h3 {
+        margin-top: 72px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 34px;
+        font-feature-settings: "pnum" on, "lnum" on;
+        color: #000000;
+      }
+      p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        margin-top: 8px;
+        font-feature-settings: "pnum" on, "lnum" on;
+
+        color: #000000;
+      }
+    }
+
+    .end {
+      margin-top: 44px;
+      h3 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 34px;
+        font-feature-settings: "pnum" on, "lnum" on;
+        color: #000000;
+      }
+      p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        margin-top: 8px;
+        font-feature-settings: "pnum" on, "lnum" on;
+
+        color: #000000;
+      }
+    }
+  }
+
+  .home-right {
+    width: 100%;
+    .form-row {
+      input {
+        margin-top: 16px;
+        width: 100%;
+        display: block;
+        padding: 14px 0 14px 24px;
+        background: #e5e5e5;
+        border: 1px solid grey;
+        border-radius: 6px;
+        box-shadow: 0px 8px 18px -6px rgba(24, 39, 75, 0.12),
+        0px 12px 42px -4px rgba(24, 39, 75, 0.12);
+        &::placeholder {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 32px;
+
+          font-feature-settings: "pnum" on, "lnum" on;
+
+          color: #000000;
+        }
+      }
+      .text-ar {
+        display: block;
+        margin-top: 16px;
+        width: 100%;
+        resize: vertical;
+        background: #e5e5e5;
+        border: 1px solid grey;
+        border-radius: 6px;
+        &::placeholder {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 32px;
+
+          font-feature-settings: "pnum" on, "lnum" on;
+
+          color: #000000;
+        }
+      }
+
+      button {
+        margin-top: 36px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 34px;
+       padding: 13px;
+        width: 233px;
+        text-align: center;
+        border: 1px solid #ffc000;
+        color: #0d0d0d;
+        background: #ffc000;
+        border-radius: 6px;
+        &:hover {
+          background-color: white;
+          color: black;
+          transition: 0.5s;
+          transform: scale(1.04);
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 550px) {
+  .home-left {
+    .top {
+      h1 {
+        font-size: 46px !important;
+      }
+    }
+  }
+}
+
+
+@media (min-width: 800px) {
+.home-row {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-column-gap: 60px;
+}
+
+}
