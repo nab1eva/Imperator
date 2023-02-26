@@ -1,103 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>profile page</title>
-    <link rel="stylesheet" href="./css/compressed/profile_page.min.css">
-    <link rel="icon" href="images/Logo.svg">
-
-</head>
-<body>
+    <link rel="stylesheet" href="./css/compressed/profile_page.min.css" />
+    <link rel="icon" href="images/Logo.svg" />
+  </head>
+  <body>
     <header>
-        <button id="backtop" style="opacity: 1">
-            <a href="#">^</a>
-          </button>
-          <nav>
-            <section class="nav1">
-              <div class="container">
-                <a href="#">Ru</a>
-                <a href="#">Uzb</a>
+      <button id="backtop" style="opacity: 1">
+        <a href="#">^</a>
+      </button>
+      <nav>
+        <section class="nav1">
+          <div class="container">
+            <a href="#">Ru</a>
+            <a href="#">Uzb</a>
+          </div>
+        </section>
+        <section id="navbar" class="nav2 navbarshrink">
+          <div class="container">
+            <div class="nav__left">
+              <h1>MILANDI</h1>
+              <ul>
+                <li><a href="./index.html">Главная</a></li>
+                <li><a href="./about.html">О нас</a></li>
+                <li><a href="./categories.html">Категории</a></li>
+                <li><a href="./cooperation.html">Сотрудничество</a></li>
+              </ul>
+            </div>
+            <div class="nav__right">
+              <button><a href="./desktop2.html">Войти</a></button>
+              <button><a href="./desktop3.html">Зарегистрироваться</a></button>
+              <a href="zakaz.html"><i class="uil uil-shopping-cart-alt"></i></a>
+            </div>
+          </div>
+        </section>
+        <section id="navbar" class="nav__res">
+          <div class="container">
+            <div class="hamburger">
+              <div class="left">
+                <i class="uil uil-bars" onclick="openNavbar()"></i>
+                <img src="images/Logo.svg" alt="" />
               </div>
-            </section>
-            <section  id="navbar" class="nav2 navbarshrink">
-              <div class="container">
-                <div class="nav__left">
-                  <h1>MILANDI</h1>
-                  <ul>
-                    <li><a href="./index.html">Главная</a></li>
-                    <li><a href="./about.html">О нас</a></li>
-                    <li><a href="./categories.html">Категории</a></li>
-                    <li><a href="./cooperation.html">Сотрудничество</a></li>
-                  </ul>
-                </div>
-                <div class="nav__right">
-                  <button><a href="./desktop2.html">Войти</a></button>
-                  <button><a href="./desktop3.html">Зарегистрироваться</a></button>
-                  <a href="zakaz.html"><i class="uil uil-shopping-cart-alt"></i></a>
-                </div>
-              </div>
-            </section>
-            <section  id="navbar" class="nav__res">
-              <div class="container">
-                <div class="hamburger">
-                  <div class="left">
-                    <i class="uil uil-bars" onclick="openNavbar()"></i>
-                    <img src="images/Logo.svg" alt="" />
-                  </div>
-                  <a href="./zakaz.html"><i class="uil uil-shopping-cart-alt"></i></a>
-                </div>
-                <div id="navbar-responsive">
-                  <i
-                    id="navbar-close"
-                    class="uil uil-multiply"
-                    onclick="closeNavbar()"></i>
-                  <div class="hamcontent">
-                    <a href="./index.html">Главная</a>
-                    <a href="./about.html">О нас</a>
-                    <a href="./pricing.html">Категории</a>
-                    <a href="./work.html">Сотрудничество</a>
-                    <div class="buttons">
-                      <button><a href="./desktop2.html">Регестрайция</a></button>
-                      <button><a href="./desktop3.html">Вход</a></button>
-                    </div>
-                  </div>
+              <a href="./zakaz.html"
+                ><i class="uil uil-shopping-cart-alt"></i
+              ></a>
+            </div>
+            <div id="navbar-responsive">
+              <i
+                id="navbar-close"
+                class="uil uil-multiply"
+                onclick="closeNavbar()"></i>
+              <div class="hamcontent">
+                <a href="./index.html">Главная</a>
+                <a href="./about.html">О нас</a>
+                <a href="./pricing.html">Категории</a>
+                <a href="./work.html">Сотрудничество</a>
+                <div class="buttons">
+                  <button><a href="./desktop2.html">Регестрайция</a></button>
+                  <button><a href="./desktop3.html">Вход</a></button>
                 </div>
               </div>
-            </section>
-          </nav>
+            </div>
+          </div>
+        </section>
+      </nav>
     </header>
 
-
     <main>
-        <section id="profile-section">
-            <div class="container profile-container">
-                <div class="profile-left">
-                    <img src="./images/profile-page/ava.png" alt="ava">
-                    <button>Изменить</button>
-                </div>
+      <section id="profile-section">
+        <div class="container profile-container">
+          <div class="profile-left">
+            <img src="./images/profile-page/ava.png" alt="ava" />
+            <button>Изменить</button>
+          </div>
 
-                <div class="profile-center">
-                    <form action="#">
-                        <h1>Имя и фамилия:</h1>
-                        <input type="text" name="name" placeholder="Your name" required>
-                        <h1>Номер телефона:</h1>
-                        <input type="text" placeholder="+998 (94) 000 00 00" required>
-                        <h1>Пароль</h1>
-                        <input type="password" placeholder="**********" required>
-                        <p>Изменить</p>
-                    </form>
-                </div>
+          <div class="profile-center">
+            <form action="#">
+              <h1>Имя и фамилия:</h1>
+              <input type="text" name="name" placeholder="Your name" required />
+              <h1>Номер телефона:</h1>
+              <input type="text" placeholder="+998 (94) 000 00 00" required />
+              <h1>Пароль</h1>
+              <input type="password" placeholder="**********" required />
+              <p>Изменить</p>
+            </form>
+          </div>
 
-                <div class="profile-right">
-                    <form action="">                        
-                        <h1>Адрес</h1>
-                        <input type="text" name="text" placeholder="Your address">
-                    </form>
-                </div>
-            </div>
-        </section>
-    </main>    
-</body>
+          <div class="profile-right">
+            <form action="">
+              <h1>Адрес</h1>
+              <input type="text" name="text" placeholder="Your address" />
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
