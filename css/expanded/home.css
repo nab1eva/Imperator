@@ -50,6 +50,10 @@ input:focus {
   display: revert;
 }
 
+* {
+  transition: all 0.4s ease;
+}
+
 footer .container .footer_res {
   padding: 36px 28px;
 }
@@ -172,6 +176,10 @@ footer .container .footer_res .location .thing i {
     gap: 170px !important;
   }
 }
+* {
+  transition: all 0.4s ease;
+}
+
 #backtop {
   position: fixed;
   bottom: 30px;
@@ -342,7 +350,7 @@ nav .nav2 .container .nav__right button:hover {
   bottom: 45px;
   left: 0;
   padding: 0 28px;
-  width: 100%;
+  width: 89%;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -725,8 +733,8 @@ main #s1 .container .s1__right img {
   height: 100%;
 }
 #s4 .container .owl-carousel .item button {
-  display: none;
   opacity: 0;
+  display: flex;
   justify-content: center;
   padding: 18px 0;
   background-color: #000000;
@@ -746,7 +754,6 @@ main #s1 .container .s1__right img {
   margin-top: -70px;
 }
 #s4 .container .owl-carousel .item:hover button {
-  display: flex;
   opacity: 1;
 }
 

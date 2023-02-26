@@ -2,7 +2,9 @@ $white: #fafafa;
 $black: #000000;
 $grey: lightgrey;
 $orange: #ffc000;
-
+* {
+  transition: all 0.4s ease;
+}
 footer {
   .container {
     .footer_res {
@@ -129,7 +131,7 @@ footer {
   }
 }
 @media (min-width: 1000px) {
-	.footer_right {
-	  gap: 170px !important;
-	}
+  .footer_right {
+    gap: 170px !important;
   }
+}
