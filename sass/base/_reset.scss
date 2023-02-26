@@ -41,9 +41,7 @@ input:focus {
   outline: none;
 }
 
-::placeholder {
-  color: unset;
-}
+
 
 *,
 *::before,
@@ -52,6 +50,6 @@ input:focus {
 }
 
 *:where(:not(html, iframe, canvas, svg, video, audio):not(svg *, symbol *)) {
-  all: unset;
+  
   display: revert;
 }
