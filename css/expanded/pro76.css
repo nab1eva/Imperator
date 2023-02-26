@@ -416,3 +416,21 @@ nav .nav2 .container .nav__right button:hover {
     gap: 80px !important;
   }
 }
+.intro {
+  text-align: center;
+}
+.intro h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.25px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+
+.first-desktop {
+  padding-top: 150px;
+}
