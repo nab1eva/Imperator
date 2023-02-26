@@ -11,8 +11,8 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
-      integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
@@ -123,28 +123,172 @@
 
       <section id="ekssper">
         <div class="container">
-          <div class="ekisper-row">
-            <div class="card">
-              <img src="./images/about/servis.svg" alt="" />
-              <p>Лучший сервис</p>
-            </div>
-            <div class="card">
-              <img src="./images/about/servis.svg" alt="" />
-              <p>Экспресс доставка</p>
-            </div>
-            <div class="card">
-              <img src="./images/about/servis.svg" alt="" />
-              <p>Лучшее качество в стране</p>
+          <div class="ekisper-row" id="owl">
+            <div class="owl-carousel owl-theme owl1">
+              <div class="item">
+                <div class="card">
+                  <img src="./images/about/servis.svg" alt="" />
+                  <p>Экспресс доставка</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="card">
+                  <img src="./images/about/ekspers.svg" alt="" />
+                  <p>Экспресс доставка</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="card">
+                  <img src="./images/about/like.svg" alt="" />
+                  <p>Экспресс доставка</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="card">
+                  <img src="./images/about/servis.svg" alt="" />
+                  <p>Экспресс доставка</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
+      <!-- start map -->
+      <section id="map">
+        <div class="container">
+          <div class="map-row">
+            <div class="map-left">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6307.052313311275!2d-122.4224989237833!3d37.77770736903551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808eb456e2dd%3A0xcb1742ab59d38bda!2z0KHQuNCy0LjQuiDQodC10L3RgtC10YAsINCh0LDQvS3QpNGA0LDQvdGG0LjRgdC60L4sINCa0LDQu9C40YTQvtGA0L3QuNGPIDk0MTAyLCDQodCo0JA!5e0!3m2!1sru!2s!4v1677355334313!5m2!1sru!2s"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
 
-  
+            <div class="map-right">
+              <div class="right-top">
+                <h1>Работаем по всему миру.</h1>
+              </div>
+
+              <div class="right-content">
+                <div class="card-right">
+                  <ul>
+                    <li>
+                      <h3>Bali</h3>
+                    </li>
+                    <li>
+                      <p>508 Bridle Avenue</p>
+                    </li>
+                    <li>
+                      <p>Newnan, GA</p>
+                    </li>
+                    <li>
+                      <p>30263</p>
+                    </li>
+
+                
+                  </ul>
+                </div>
+
+                <div class="card-right">
+                  <ul>
+                    <li>
+                      <h3>Moscow</h3>
+                    </li>
+                    <li>
+                      <p>508 Bridle Avenue</p>
+                    </li>
+                    <li>
+                      <p>Newnan, GA</p>
+                    </li>
+                    <li>
+                      <p>30263</p>
+                    </li>
+
+                
+                  </ul>
+                </div>
+                <div class="card-right">
+                  <ul>
+                    <li>
+                      <h3>London</h3>
+                    </li>
+                    <li>
+                      <p>508 Bridle Avenue</p>
+                    </li>
+                    <li>
+                      <p>Newnan, GA</p>
+                    </li>
+                    <li>
+                      <p>30263</p>
+                    </li>
+
+                
+                  </ul>
+                </div>
+                <div class="card-right">
+                  <ul>
+                    <li>
+                      <h3>Prague</h3>
+                    </li>
+                    <li>
+                      <p>508 Bridle Avenue</p>
+                    </li>
+                    <li>
+                      <p>Newnan, GA</p>
+                    </li>
+                    <li>
+                      <p>30263</p>
+                    </li>
+
+                
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
-
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+      integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(" #owl .owl-carousel").owlCarousel({
+        loop: true,
+        dots: false,
+        margin: 20,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          550: {
+            items: 2,
+          },
+          900: {
+            items: 3,
+          },
+        },
+      });
+    </script>
     <script src="js/smth.js"></script>
   </body>
 </html>
