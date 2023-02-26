@@ -277,3 +277,83 @@ nav .nav2 .container .nav__right button:hover {
     gap: 80px !important;
   }
 }
+#profile-section {
+  padding: 180px 0px;
+  background: #fafafa;
+}
+#profile-section .profile-container {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 130px;
+       column-gap: 130px;
+  row-gap: 40px;
+  flex-wrap: wrap;
+}
+#profile-section .profile-left {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+#profile-section .profile-left button {
+  padding: 9px 92px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #0d0d0d;
+  background: #ffc000;
+}
+#profile-section .profile-left button:hover {
+  background-color: #ff0;
+}
+#profile-section form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+#profile-section form h1 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+#profile-section form input {
+  width: 264px;
+  padding: 10px 0px 10px 12px;
+  border: 1px solid #dbdee7;
+  border-radius: 6px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0d0d0d;
+}
+#profile-section form input:hover {
+  border: 1px solid rgba(53, 41, 7, 0.3960784314);
+}
+#profile-section form input:focus {
+  border: 1px solid #ffc000;
+}
+#profile-section form p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.4px;
+  color: #ffc000;
+  cursor: pointer;
+}
+#profile-section form p:hover {
+  color: rgba(131, 105, 21, 0.336);
+}
+
+@media (max-width: 600px) {
+  .profile-left,
+  img,
+  .profile-center,
+  .profile-right {
+    width: 100% !important;
+  }
+  form input {
+    width: 96.5% !important;
+  }
+}
