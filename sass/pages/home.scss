@@ -339,8 +339,8 @@ main {
           height: 100%;
         }
         button {
-          display: none;
           opacity: 0;
+          display: flex;
           justify-content: center;
           padding: 18px 0;
           background-color: $black;
@@ -360,7 +360,6 @@ main {
         height: 100%;
         margin-top: -70px;
         button {
-          display: flex;
           opacity: 1;
         }
       }
@@ -517,7 +516,6 @@ main {
     padding: 40px 0 56px !important;
     width: 60%;
   }
-
   .store {
     align-items: center !important;
     flex-direction: initial !important;
