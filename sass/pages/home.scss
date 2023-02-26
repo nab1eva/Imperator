@@ -8,6 +8,8 @@ $darkblue: radial-gradient(100% 1071.07% at 0% 0%, #0f0d2b 0%, #0c0926 100%);
 
 main {
   margin-top: 80px;
+  background-color: #e5e5e5;
+  padding-bottom: 70px;
   #s1 {
     background-color: $orange;
     position: relative;
@@ -414,7 +416,92 @@ main {
   padding-top: 64px !important;
 }
 
+#s7 {
+  padding-bottom: 48px;
+  background-color: #e5e5e5;
+  .container {
+    .card {
+      background-color: #fff;
+      display: flex;
+      gap: 16px;
+      flex-direction: column;
+      img {
+        width: 100%;
+      }
+    }
+    .s7__text {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      padding: 16px 8px 24px;
+      h1 {
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 140%;
+        letter-spacing: 0.25px;
+        color: $black;
+        max-width: 556px;
+      }
+      p {
+        max-width: 558px;
+        margin: 24px 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        letter-spacing: 0.44px;
+        color: $black;
+      }
+      button {
+        padding: 8px 23px;
+        border-radius: 6px;
+        background-color: $orange;
+        border: none;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.75px;
+        text-transform: uppercase;
+        a {
+          color: $black;
+        }
+      }
+    }
+  }
+}
+
+#s8 {
+  background-color: $orange;
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 140%;
+      text-align: center;
+      letter-spacing: 0.15px;
+      color: $black;
+      max-width: 319px;
+      margin: 56px 0;
+    }
+  }
+}
+
 @media (min-width: 800px) {
+  #s8 {
+    h1 {
+      font-weight: 700 !important;
+      font-size: 34px !important;
+      line-height: 140% !important;
+      margin: 170px 0 !important;
+      max-width: 666px !important;
+    }
+  }
   #s5 {
     .container {
       justify-content: space-between;
@@ -469,10 +556,22 @@ main {
   }
 }
 
-
 @media (min-width: 910px) {
   main {
     margin-top: 115px;
+  }
+  #s7 {
+    .card {
+      flex-direction: initial !important;
+      gap: 30px;
+      justify-content: space-between;
+      img {
+        width: 50% !important;
+      }
+      .s7__text {
+        align-items: flex-start;
+      }
+    }
   }
 }
 
