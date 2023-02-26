@@ -1,6 +1,6 @@
 $white: #fafafa;
-$black: #000000;
-$grey: grey;
+$black: hsl(0, 0%, 0%);
+$grey: lightgrey;
 $orange: #ffc000;
 $darkblue: radial-gradient(100% 1071.07% at 0% 0%, #0f0d2b 0%, #0c0926 100%);
 
@@ -98,7 +98,7 @@ nav {
           border: none;
           border-radius: 4px;
           padding: 4px 8px;
-          //background-color: $grey;
+          background-color: $grey;
           a {
             font-weight: 400;
             font-size: 16px;
