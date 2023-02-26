@@ -1,0 +1,137 @@
+$white: #fafafa;
+$black: #000000;
+$grey: lightgrey;
+$orange: #ffc000;
+* {
+  transition: all 0.4s ease;
+}
+footer {
+  .container {
+    .footer_res {
+      padding: 36px 28px;
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: $black;
+      }
+      hr {
+        background-color: #dbdee7;
+        height: 1px;
+        border: none;
+      }
+      ul {
+        padding: 36px 0;
+        display: grid;
+        grid-template-columns: auto auto;
+        li {
+          a {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 34px;
+          }
+        }
+      }
+      .location {
+        margin-top: 32px;
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+        .thing {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+          }
+          i {
+            font-weight: 600;
+            font-size: 26px;
+            line-height: 24px;
+            color: #0045ff;
+          }
+        }
+      }
+    }
+  }
+}
+.footer {
+  padding: 46px 0;
+  display: none;
+  justify-content: space-between;
+  .footer_left {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    h6 {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 140%;
+      letter-spacing: 0.75px;
+      text-transform: uppercase;
+      color: $black;
+    }
+    p {
+      margin: 16px 0 20px;
+      max-width: 265px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 160%;
+      letter-spacing: 0.25px;
+      color: $black;
+    }
+  }
+  .mt {
+    margin-top: 38px;
+  }
+  .footer_right {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    h6 {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 140%;
+      letter-spacing: 0.75px;
+      text-transform: uppercase;
+      color: $black;
+      margin-bottom: 16px;
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      li {
+        a {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 160%;
+          letter-spacing: 0.25px;
+          color: $black;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 830px) {
+  .footer_res {
+    display: none;
+  }
+  .footer {
+    display: flex !important;
+  }
+}
+
+@media (min-width: 900px) {
+  .footer_right {
+    gap: 100px !important;
+  }
+}
+@media (min-width: 1000px) {
+  .footer_right {
+    gap: 170px !important;
+  }
+}
