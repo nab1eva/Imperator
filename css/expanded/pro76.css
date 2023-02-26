@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -40,14 +41,6 @@ input:focus {
   outline: none;
 }
 
-::-moz-placeholder {
-  color: unset;
-}
-
-::placeholder {
-  color: unset;
-}
-
 *,
 *::before,
 *::after {
@@ -55,7 +48,6 @@ input:focus {
 }
 
 *:where(:not(html, iframe, canvas, svg, video, audio):not(svg *, symbol *)) {
-  all: unset;
   display: revert;
 }
 
@@ -415,4 +407,12 @@ nav .nav2 .container .nav__right button:hover {
   .nav__left {
     gap: 80px !important;
   }
+}
+* {
+  margin: 0;
+  padding: 0;
+  transition: all 0.4s ease;
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+  outline: none;
 }
