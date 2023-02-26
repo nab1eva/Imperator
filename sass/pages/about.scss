@@ -119,6 +119,7 @@
 // map start
 
 #map {
+  padding-bottom: 62px;
   background: #e5e5e5;
   .map-row {
     .map-left {
@@ -178,6 +179,56 @@
     }
   }
 }
+
+// s5
+
+#s5 {
+  background-color: red;
+  background-image: radial-gradient(
+    100% 1071.07% at 0% 0%,
+    #0f0d2b 0%,
+    #0c0926 100%
+  );
+  .container {
+    position: relative;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    .phone {
+      margin-top: -90px;
+      width: 60%;
+    }
+    .text {
+      padding: 16px 0 48px;
+      h1 {
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 140%;
+        letter-spacing: 0.25px;
+        color: $white;
+        max-width: 754px;
+      }
+      p {
+        max-width: 738px;
+        margin: 24px 0 40px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        letter-spacing: 0.44px;
+        color: $white;
+      }
+      .store {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+      }
+    }
+  }
+}
+
+
+
 
 
 @media (min-width: 500px){
