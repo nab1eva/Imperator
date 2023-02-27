@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -75,6 +74,7 @@ footer .container .footer_res ul {
   grid-template-columns: auto auto;
 }
 footer .container .footer_res ul li a {
+  color: #000000;
   font-weight: 700;
   font-size: 20px;
   line-height: 34px;
@@ -351,7 +351,7 @@ nav .nav2 .container .nav__right button:hover {
   bottom: 45px;
   left: 0;
   padding: 0 28px;
-  width: 89%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -408,15 +408,6 @@ nav .nav2 .container .nav__right button:hover {
     gap: 80px !important;
   }
 }
-* {
-  margin: 0;
-  padding: 0;
-  transition: all 0.4s ease;
-  scroll-behavior: smooth;
-  font-family: "Montserrat", sans-serif;
-  outline: none;
-}
-
 main {
   margin-top: 80px;
   background-color: #e5e5e5;
@@ -559,6 +550,7 @@ main #s1 .container .s1__right img {
   line-height: 140%;
   display: flex;
   align-items: center;
+  text-align: center;
   letter-spacing: 0.44px;
   color: #000000;
 }
@@ -575,7 +567,7 @@ main #s1 .container .s1__right img {
 #s2 .container .owl-carousel .owl-dots .owl-dot span {
   width: 4px;
   height: 4px;
-  margin: 6px;
+  margin: 5px;
 }
 #s2 .container .owl-carousel .owl-dots .owl-dot.active {
   border-radius: 50%;
@@ -613,7 +605,7 @@ main #s1 .container .s1__right img {
 #s3 .container .owl-carousel .owl-dots .owl-dot span {
   width: 4px;
   height: 4px;
-  margin: 6px;
+  margin: 5px;
 }
 #s3 .container .owl-carousel .owl-dots .owl-dot.active {
   border-radius: 50%;
@@ -699,7 +691,7 @@ main #s1 .container .s1__right img {
 
 #s4 {
   background-color: #e5e5e5;
-  padding: 10px 0 240px;
+  padding: 10px 0 140px;
 }
 #s4 .container h1 {
   font-weight: 700;
@@ -728,7 +720,7 @@ main #s1 .container .s1__right img {
 #s4 .container .owl-carousel .owl-dots .owl-dot span {
   width: 4px;
   height: 4px;
-  margin: 6px;
+  margin: 5px;
 }
 #s4 .container .owl-carousel .owl-dots .owl-dot.active {
   border-radius: 50%;
@@ -736,15 +728,28 @@ main #s1 .container .s1__right img {
 }
 #s4 .container .owl-carousel .item {
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   border-radius: 8px;
 }
 #s4 .container .owl-carousel .item img {
   width: 100%;
   height: 100%;
 }
+#s4 .container .owl-carousel .item a {
+  margin-top: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.44px;
+  color: #000000;
+  text-align: center;
+  text-transform: capitalize;
+}
 #s4 .container .owl-carousel .item button {
+  display: none;
   opacity: 0;
-  display: flex;
   justify-content: center;
   padding: 18px 0;
   background-color: #000000;
@@ -757,14 +762,6 @@ main #s1 .container .s1__right img {
   color: #ffc000;
   text-align: center;
   text-transform: capitalize;
-}
-#s4 .container .owl-carousel .item:hover {
-  border-radius: 8px;
-  height: 100%;
-  margin-top: -70px;
-}
-#s4 .container .owl-carousel .item:hover button {
-  opacity: 1;
 }
 
 #s5 {
@@ -885,6 +882,28 @@ main #s1 .container .s1__right img {
   margin: 56px 0;
 }
 
+@media (min-width: 700px) {
+  #s4 .container .owl-carousel .owl-dots {
+    display: none;
+  }
+  #s4 .container .owl-carousel .item a {
+    display: none;
+  }
+  #s4 .container .owl-carousel .item button {
+    display: flex;
+  }
+  #s4 .container .owl-carousel .item button a {
+    display: block;
+  }
+  #s4 .container .owl-carousel .item:hover {
+    border-radius: 8px;
+    height: 100%;
+    margin-top: -70px;
+  }
+  #s4 .container .owl-carousel .item:hover button {
+    opacity: 1;
+  }
+}
 @media (min-width: 800px) {
   #s8 h1 {
     font-weight: 700 !important;
