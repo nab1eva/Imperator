@@ -73,10 +73,13 @@ nav .nav2 .container .nav__left h1 {
   font-size: 23px;
   line-height: 140%;
   letter-spacing: 0.4px;
+  margin-bottom: 0;
 }
 nav .nav2 .container .nav__left ul {
   display: flex;
+  align-items: center;
   gap: 24px;
+  margin-bottom: 0;
 }
 nav .nav2 .container .nav__left ul li a {
   font-weight: 500;

@@ -74,10 +74,13 @@ nav {
           font-size: 23px;
           line-height: 140%;
           letter-spacing: 0.4px;
+          margin-bottom: 0;
         }
         ul {
           display: flex;
+          align-items: center;
           gap: 24px;
+          margin-bottom: 0;
           li {
             a {
               font-weight: 500;

@@ -59,7 +59,7 @@ list-style: none;
 box-sizing: border-box;
 }
 
-.navbar-brand {
+/* .navbar-brand {
     margin-right: 90px;
 }
 
@@ -70,7 +70,7 @@ box-sizing: border-box;
 .nav-btn{
  margin-right: 50px;
  gap: 30px;
-}
+} */
 .section{
     margin-top: 64px;
 }
