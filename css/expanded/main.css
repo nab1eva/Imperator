@@ -129,6 +129,9 @@ footer .container .footer_res .location .thing i {
   letter-spacing: 0.25px;
   color: #000000;
 }
+.footer .footer_left p a {
+  color: #000000;
+}
 .footer .mt {
   margin-top: 38px;
 }
