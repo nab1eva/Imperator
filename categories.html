@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="css/compressed/footer.min.css">
+    <link rel="stylesheet" href="css/compressed/navbar.min.css">
+    <link
+    rel="stylesheet"
+    href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+</head>
+
+<body>
+
+    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand  " href="#">MILANDI</a>
+        
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">О нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Категории</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Сотрудничество</a>
+                    </li>
+
+                </ul>
+                <div class="nav-btn">
+                    <button type="button " class="btn btn-outline-info">Войти</button>
+                    <button type="button" class="btn btn-outline-warning">Зарегистрироваться</button>
+                </div>
+                <div class="nav-icon">
+                    <img class="icon-nav" src="./icon/ic_cart.svg" alt="icon">
+                </div>
+            </div>
+
+        </div>
+    </nav> -->
+    <button id="backtop" style="opacity: 1">
+        <a href="#">Up</a>
+      </button>
+      <nav>
+        <section class="nav1">
+          <div class="container">
+            <a href="#">Ru</a>
+            <a href="#">Uzb</a>
+          </div>
+        </section>
+        <section id="navbar" class="nav2 navbarshrink">
+          <div class="container">
+            <div class="nav__left">
+              <h1>MILANDI</h1>
+              <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="best_categories.html">Категории</a></li>
+                <li><a href="cooperation.html">Сотрудничество</a></li>
+              </ul>
+            </div>
+            <div class="nav__right">
+              <button><a href="profile_page.html">Войти</a></button>
+              <button><a href="pro76.html">Зарегистрироваться</a></button>
+              <a href="zakaz.html"><i class="uil uil-shopping-cart-alt"></i></a>
+            </div>
+          </div>
+        </section>
+        <section id="navbar" class="nav__res">
+          <div class="container">
+            <div class="hamburger">
+              <div class="left">
+                <i class="uil uil-bars" onclick="openNavbar()"></i>
+                <img src="images/Logo.svg" alt="" />
+              </div>
+              <a href="zakaz.html"><i class="uil uil-shopping-cart-alt"></i></a>
+            </div>
+            <div id="navbar-responsive">
+              <i
+                id="navbar-close"
+                class="uil uil-multiply"
+                onclick="closeNavbar()"></i>
+              <div class="hamcontent">
+                <a href="index.html">Главная</a>
+                <a href="about.html">О нас</a>
+                <a href="pricing.html">Категории</a>
+                <a href="work.html">Сотрудничество</a>
+                <div class="buttons">
+                  <button><a href="desktop2.html">Регестрайция</a></button>
+                  <button><a href="profile_page.html">Вход</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </nav>
+    <section class="section">
+        <div class="container ">
+            <div class="katalog">
+                <h1 class="section-h1">Категории</h1>
+            </div>
+            <div class="section-tittle">
+                <div class="section-card">
+                    <div class="div1">
+                        <div class="divv">
+                            <img src="./img/image1.png" class="object-fit-contain border rounded" alt="img">
+                            <h4>Women’s wear</h4>
+                        </div>
+                        <div class="divv">
+                            <img src="img/image2.png" class="object-fit-cover border rounded" alt="img">
+                            <h4>Men’s wear</h4>
+                        </div>
+                    </div>
+                    <div class="div2">
+                        <div class="divv">
+                            <img src="img/image3.png" class="object-fit-fill border rounded" alt="img">
+                            <h4>Kid’s wear</h4>
+                        </div>
+                        <div class="divv">
+                            <img src="./img/image4.png" class="object-fit-scale border rounded" alt="img">
+                            <h4>Shoes</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-card1">
+                    <div class="div3">
+                        <div class="divv">
+                            <img src="./img/image5.png" class="object-fit-contain border rounded" alt="img">
+                            <h4>Сумки</h4>
+                        </div>
+                        <div class="divv">
+                            <img src="img/image6.png" class="object-fit-cover border rounded" alt="img">
+                            <h4>Accessories</h4>
+                        </div>
+                    </div>
+                    <div class="div4">
+                        <div>
+                            <img src="img/image7.png" class="object-fit-fill border rounded" alt="img">
+                            <h4>Underwear</h4>
+                        </div>
+                        <div>
+                            <img src="./img/image8.png" class="object-fit-scale border rounded" alt="img">
+                            <h4>Decorations</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-card2">
+                    <div class="div5">
+                        <div>
+                            <img src="./img/image9.png" class="object-fit-contain border rounded" alt="img">
+                            <h4>Home textiles</h4>
+                        </div>
+                        <div>
+                            <img src="img/image10.png" class="object-fit-cover border rounded" alt="img">
+                            <h4>Wholesale</h4>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+
+    </section>
+
+    <!-- <footer>
+        <div class="container">
+            <div class="footercard">
+                <div class="footer-card1">
+                    <h5>По будням 9:00 to 18:00</h5>
+                    <p class="footer-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget pretium aenean
+                        dignissim sit cursus
+                        dictumst adipiscing nunc.</p>
+                    <img src="./icon/id1.svg" alt="logo">
+                </div>
+                <div class="footer-card2">
+                    <ul>
+                        <li>Catalog</li>
+                        <li>Popular</li>
+                        <li>Pricing</li>
+                        <li>Features</li>
+                    </ul>
+                    <ul>
+                        <li>About</li>
+                        <li>Blog</li>
+                        <li>Contacts</li>
+                    </ul>
+                </div>
+                <div class="footer-loc">
+                    <div class="icon">
+                        <img src="./icon/Shape.svg" alt="icon">
+                        <span>Los Angeles</span>
+                        <span>359 Hidden Valley Road</span>
+                    </div>
+                    <div class="icon">
+                        <img src="./icon/Shape2.svg" alt="icon">
+                        <span>Hellohero@gmail.com</span>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </footer> -->
+    <footer>
+        <div class="container">
+          <div class="footer_res">
+            <p>
+              High fidelity wireframes include more real content, specific
+              typography choices, and information on image.
+            </p>
+            <ul>
+              <li><a href="categories.html">Catalog</a></li>
+              <li><a href="best_categories.html">Popular</a></li>
+              <li><a href="filter.html">Pricing</a></li>
+              <li><a href="pro76.html">Features</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="profile_page.html">Blog</a></li>
+              <li><a href="cooperation.html">Contacts</a></li>
+            </ul>
+            <hr />
+            <div class="location">
+              <div class="thing">
+                <i class="uil uil-location-point"></i>
+                <a
+                  >Los Angeles,<br />
+                  359 Hidden Valley Road</a
+                >
+              </div>
+              <div class="thing">
+                <i class="uil uil-envelope"></i>
+                <a href="">Hellohero@gmail.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="footer">
+            <div class="footer_left">
+              <div class="left">
+                <h6>про imperia</h6>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget
+                  pretium aenean dignissim sit cursus dictumst adipiscing nunc.
+                </p>
+                <img src="images/footer_logo.svg" alt="" />
+              </div>
+              <div class="right">
+                <h6>контакты</h6>
+                <p><a href="">+998 90 958 78 87</a></p>
+                <p><a href="">support@fonon.uz</a></p>
+                <h6 class="mt">рабочее время</h6>
+                <p>По будням 9:00 to 18:00</p>
+                <p>В выходные 11:00 to 18:00</p>
+              </div>
+            </div>
+            <div class="footer_right">
+              <div class="left">
+                <h6>Меню</h6>
+                <ul>
+                  <li><a href="index.html">Главная</a></li>
+                  <li><a href="about.html">О нас</a></li>
+                  <li><a href="categories.html">Категории</a></li>
+                  <li><a href="cooperation.html">Сотрудничество</a></li>
+                </ul>
+              </div>
+              <div class="right">
+                <h6>категории</h6>
+                <ul>
+                  <li><a href="">Женская одежда</a></li>
+                  <li><a href="">Мужская одежда</a></li>
+                  <li><a href="">Детская одежда</a></li>
+                  <li><a href="">Обувь</a></li>
+                  <li><a href="">Сумки</a></li>
+                  <li><a href="">Аксесуары</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+    <script src="./bootstrap.bundle.js"></script>
+    <script src="js/smth.js"></script>
+</body>
+
+</html>
