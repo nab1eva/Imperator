@@ -71,6 +71,10 @@ box-sizing: border-box;
  margin-right: 50px;
  gap: 30px;
 } */
+
+footer ul{
+    padding-left: 0 !important;
+}
 .section{
     margin-top: 64px;
 }
