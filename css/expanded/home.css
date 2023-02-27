@@ -676,6 +676,9 @@ main #s1 .container .s1__right img {
   text-transform: uppercase;
   margin-top: 8px;
 }
+#s3 .container .owl-carousel .item .card_text button a {
+  color: #000000;
+}
 #s3 .container .owl-carousel .item .card_text .rate {
   display: flex;
   justify-content: space-between;
