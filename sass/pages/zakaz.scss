@@ -190,6 +190,10 @@
         border-radius: 12px;
         width: 264px;
         padding-bottom: 6px;
+        &:hover {
+          transform: scale(1.05);
+          transition: all 0.5s ease-in-out;
+        }
 
         h2 {
           margin: 8px 13px 0px;
@@ -415,12 +419,6 @@
         }
       }
     }
-  }
-}
-
-@media (min-width: 300px) {
-  .zakaz__btn {
-    text-align: center;
   }
 }
 

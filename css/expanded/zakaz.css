@@ -594,6 +594,10 @@ nav .nav2 .container .nav__right button:hover {
     width: 264px;
     padding-bottom: 6px;
   }
+  .maxsulot-body .maxsulot-body_box .box__item:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
+  }
   .maxsulot-body .maxsulot-body_box .box__item h2 {
     margin: 8px 13px 0px;
     font-weight: 600;
@@ -799,11 +803,6 @@ nav .nav2 .container .nav__right button:hover {
     letter-spacing: 1.5px;
     text-transform: uppercase;
     color: #000000;
-  }
-}
-@media (min-width: 300px) {
-  .zakaz__btn {
-    text-align: center;
   }
 }
 @media (max-width: 650px) {
