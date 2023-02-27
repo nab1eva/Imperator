@@ -334,7 +334,7 @@ nav .nav2 .container .nav__right button:hover {
   position: relative;
   padding: 92px 36px 45px;
   background-color: #fafafa;
-  height: 70vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -351,7 +351,7 @@ nav .nav2 .container .nav__right button:hover {
 }
 #navbar-responsive .hamcontent .buttons {
   position: absolute;
-  bottom: 5px;
+  bottom: 20px;
   left: 0;
   padding: 0 28px;
   width: 100%;
@@ -396,6 +396,9 @@ nav .nav2 .container .nav__right button:hover {
 }
 
 @media (min-height: 700px) {
+  #navbar-responsive .hamcontent {
+    height: 70vh;
+  }
   #navbar-responsive .hamcontent .buttons {
     bottom: 45px;
   }
