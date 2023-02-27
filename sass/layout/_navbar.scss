@@ -173,7 +173,7 @@ nav {
     }
     .buttons {
       position: absolute;
-      bottom: 45px;
+      bottom: 5px;
       left: 0;
       padding: 0 28px;
       width: 100%;
@@ -220,6 +220,12 @@ nav {
   box-shadow: 1px 5px 15px $grey;
 }
 
+
+@media(min-height:700px){
+  #navbar-responsive .hamcontent .buttons{
+    bottom: 45px;
+  }
+}
 @media (min-width: 910px) {
   .nav1 {
     display: block !important;
