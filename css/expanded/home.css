@@ -751,6 +751,7 @@ main #s1 .container .s1__right img {
   display: none;
   opacity: 0;
   justify-content: center;
+  align-items: center;
   padding: 18px 0;
   background-color: #000000;
   font-weight: 700;
